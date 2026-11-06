@@ -1,5 +1,7 @@
 # PolymerScattLab 0.1.0
 
+LLM-based SAXS/WAXS Analyses for Polymer materials
+
 LLM-assisted SAXS/WAXS analysis for polymer researchers. Numerical fits, units and acceptance decisions are calculated by Python; an optional language model explains those results. This is a tested research prototype, not a model trained on the attached data or a validated commercial scattering package.
 
 ## Start here
