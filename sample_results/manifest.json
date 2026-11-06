@@ -1,0 +1,33 @@
+{
+  "software": "PolymerScattLab",
+  "version": "0.1.0",
+  "created_utc": "2026-11-06T22:14:22.566371+00:00",
+  "inputs": [
+    {
+      "filename": "MAXS1.xlsx",
+      "bytes": 58914,
+      "sha256": "3de96085901acefb031430c1c72197cc8df37cae1fef22798a6bf80edc91d44c"
+    },
+    {
+      "filename": "Sample 1-11.zip",
+      "bytes": 150701397,
+      "sha256": "e3340343eb19a2d6c8025e455745c2fa3b559a25874c72805355ffd42d98d9ef"
+    }
+  ],
+  "configuration": {
+    "q_unit_override": "unknown",
+    "qmin": null,
+    "qmax": null,
+    "background_subtraction": "none added; use supplied reduced data",
+    "third_column": "treated as independent 1-sigma I error; needs metadata confirmation",
+    "frame_averaging": false,
+    "sample_metadata": "not supplied"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "sources_modified": false,
+  "external_llm_executed": false
+}
