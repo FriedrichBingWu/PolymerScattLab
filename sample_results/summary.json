@@ -1,0 +1,188 @@
+{
+  "title": "Polymer SAXS/WAXS analysis",
+  "n_curves": 4639,
+  "n_accepted": 0,
+  "n_rejected": 4639,
+  "n_invalid": 0,
+  "groups": [
+    {
+      "label": "T0",
+      "n_curves": 1,
+      "n_accepted": 0,
+      "n_rejected": 1,
+      "n_invalid": 0,
+      "q_unit": "A^-1",
+      "rejection_reasons": [
+        "insufficient_low_q_access (1 curves)",
+        "outside_guinier_qrg_range (1 curves)",
+        "systematic_guinier_curvature (1 curves)"
+      ]
+    },
+    {
+      "label": "T24",
+      "n_curves": 1,
+      "n_accepted": 0,
+      "n_rejected": 1,
+      "n_invalid": 0,
+      "q_unit": "A^-1",
+      "rejection_reasons": [
+        "insufficient_low_q_access (1 curves)",
+        "outside_guinier_qrg_range (1 curves)",
+        "systematic_guinier_curvature (1 curves)"
+      ]
+    },
+    {
+      "label": "T48",
+      "n_curves": 1,
+      "n_accepted": 0,
+      "n_rejected": 1,
+      "n_invalid": 0,
+      "q_unit": "A^-1",
+      "rejection_reasons": [
+        "insufficient_low_q_access (1 curves)",
+        "outside_guinier_qrg_range (1 curves)",
+        "systematic_guinier_curvature (1 curves)"
+      ]
+    },
+    {
+      "label": "T72",
+      "n_curves": 1,
+      "n_accepted": 0,
+      "n_rejected": 1,
+      "n_invalid": 0,
+      "q_unit": "A^-1",
+      "rejection_reasons": [
+        "outside_guinier_qrg_range (1 curves)",
+        "weak_linear_fit (1 curves)",
+        "systematic_guinier_curvature (1 curves)"
+      ]
+    },
+    {
+      "label": "Sample 1",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (480 curves)",
+        "residuals_exceed_reported_errors (471 curves)",
+        "systematic_guinier_curvature (117 curves)",
+        "endpoint_sensitive (98 curves)",
+        "low_signal_log_transform_unreliable (30 curves)"
+      ]
+    },
+    {
+      "label": "Sample 2",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (441 curves)",
+        "endpoint_sensitive (389 curves)",
+        "poor_size_precision (346 curves)",
+        "residuals_exceed_reported_errors (309 curves)",
+        "systematic_guinier_curvature (201 curves)"
+      ]
+    },
+    {
+      "label": "Sample 3",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (474 curves)",
+        "residuals_exceed_reported_errors (463 curves)",
+        "endpoint_sensitive (212 curves)",
+        "systematic_guinier_curvature (149 curves)",
+        "poor_size_precision (42 curves)"
+      ]
+    },
+    {
+      "label": "Sample 5",
+      "n_curves": 255,
+      "n_accepted": 0,
+      "n_rejected": 255,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "residuals_exceed_reported_errors (252 curves)",
+        "weak_linear_fit (251 curves)",
+        "endpoint_sensitive (174 curves)",
+        "systematic_guinier_curvature (19 curves)",
+        "outside_guinier_qrg_range (7 curves)"
+      ]
+    },
+    {
+      "label": "Sample 6",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (479 curves)",
+        "residuals_exceed_reported_errors (395 curves)",
+        "endpoint_sensitive (105 curves)",
+        "low_signal_log_transform_unreliable (19 curves)",
+        "systematic_guinier_curvature (19 curves)"
+      ]
+    },
+    {
+      "label": "Sample 7",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "insufficient_low_q_access (480 curves)",
+        "outside_guinier_qrg_range (480 curves)",
+        "systematic_guinier_curvature (406 curves)",
+        "narrow_q_interval (71 curves)"
+      ]
+    },
+    {
+      "label": "Sample 10",
+      "n_curves": 480,
+      "n_accepted": 0,
+      "n_rejected": 480,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (345 curves)",
+        "endpoint_sensitive (280 curves)",
+        "poor_size_precision (239 curves)",
+        "narrow_q_interval (226 curves)",
+        "residuals_exceed_reported_errors (169 curves)"
+      ]
+    },
+    {
+      "label": "Sample 11",
+      "n_curves": 1500,
+      "n_accepted": 0,
+      "n_rejected": 1500,
+      "n_invalid": 0,
+      "q_unit": "unknown",
+      "rejection_reasons": [
+        "weak_linear_fit (1498 curves)",
+        "residuals_exceed_reported_errors (1456 curves)",
+        "systematic_guinier_curvature (250 curves)",
+        "endpoint_sensitive (90 curves)",
+        "low_signal_log_transform_unreliable (19 curves)"
+      ]
+    }
+  ],
+  "sample_state": "unknown",
+  "chain_rg_status": "not established",
+  "warnings": [
+    "Acceptance means an apparent Guinier fit passes engineering checks; molecular-chain assignment requires physical metadata.",
+    "No frame averaging; frame numbers and T labels have no assumed time or temperature units.",
+    "Confirm any unknown q units and the interpretation of supplied errors as independent 1-sigma intensity uncertainties.",
+    "No absolute intensity calibration, concentration correction or additional background subtraction was applied."
+  ]
+}
